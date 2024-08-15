@@ -19,7 +19,7 @@ with col1:
   st.write('El mejor album de Taylor swift es Evermore')
   resp = st.checkbox('Estoy de acuerdo')
   if resp: 
-    st.write('Correcto!')
+    st.write('Es mi favorito!')
 
 with col2:
   st.subheader('Esta es la segunda columna')
