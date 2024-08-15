@@ -16,10 +16,10 @@ col1, col2 = st.columns(2)
 
 with col1:
   st.subheader('esta es la primera columna') 
-st.write('El mejor album de Taylor swift es Evermore')
-resp = st.checkbox('Estoy de acuerdo')
-if resp: 
-  st.write('Correcto!')
+  st.write('El mejor album de Taylor swift es Evermore')
+  resp = st.checkbox('Estoy de acuerdo')
+  if resp: 
+    st.write('Correcto!')
 
 with col2:
   st.subheader('Esta es la segunda columna')
