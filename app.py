@@ -23,13 +23,13 @@ with col1:
 
 with col2:
   st.subheader('Esta es la segunda columna')
-  modo=st.radio('Que modalidad es la principal de tu interfaz', ('visual', 'auditiva', 'táctil'))
-  if modo == 'visual':
-    st.write('La vista es fundamental para tu interfaz')
-  if modo == 'auditiva':
-    st.write('la audición es fundamental para tu interfaz')
-  if modo == 'táctil': 
-    st.write('el tacto es fundamental para tu interfaz') 
+  modo=st.radio('¿Cuál álbum te gusta más?', ('evermore', 'folklore', 'TTPD'))
+  if modo == 'evermore':
+    st.write('Un álbum súper infravalorado')
+  if modo == 'folklore':
+    st.write('De sus mejores trabajos, tanto en lírica como producción')
+  if modo == 'TTPD': 
+    st.write('el más nuevo y más largo hasta ahora, de sus mejores trabajos') 
 
 st. subheader('uso de botones')
 if st.button('Presiona el botón'): 
