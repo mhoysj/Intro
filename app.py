@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-image = Image.open('Taylor')
+image = Image.open('Taylor.png')
 st.image(image, caption='Taylor Swift')
 
 st.title("Amo a Taylor Swift")
