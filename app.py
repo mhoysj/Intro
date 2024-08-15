@@ -31,6 +31,10 @@ with col2:
   if modo == 'TTPD': 
     st.write('el más nuevo y más largo hasta ahora, de sus mejores trabajos') 
 
-st. subheader('uso de botones')
-if st.button('Presiona el botón'): 
-  st.write('Gracias por presionar')
+with st.sidebar: 
+  st.subheader('Configura la modalidad')
+  mod_radio = st.radio(
+      'escoge un álbum para usar:', 
+      ('evermore', 'folklore','TTPD' )
+  )
+  
